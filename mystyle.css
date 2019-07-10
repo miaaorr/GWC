@@ -1,0 +1,71 @@
+/*h1 {
+  color : blue;
+
+}*/
+h1{
+  text-align: center;
+  font-family: "ITC American Typewriter", serif;
+}
+
+h3 {
+  text-align : center;
+}
+
+img.people {
+  max-width : 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img.greg {
+  max-width : 150px;
+  float: left;
+}
+
+div {
+  clear: left;
+}
+
+
+.topnav {
+  background-color: #99ccff;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index : 100;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+/*makes right align word that is green. Needs id="item" in original*/
+/*#item {
+  text-align: right;
+  color: green;
+}
+
+.content {
+  padding: 10px;
+}*/
